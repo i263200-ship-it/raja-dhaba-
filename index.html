@@ -1,0 +1,31 @@
+<!-- Zarnab |  i263200 | D-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dhaba Menu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Raja Dhaba</h1>
+  <img src="images/dhaba.jpg" alt="Dhaba food" width="300">
+  <p>Fresh karahi, hot naan and strong chai since 1995.</p>
+
+  <h2>Menu</h2>
+  <table>
+    <tr><th>Item</th><th>Category</th><th>Price (Rs.)</th></tr>
+    <tr><td>Chicken Karahi</td><td>Main</td><td>1800</td></tr>
+    <tr><td>Daal Mash</td><td>Main</td><td>600</td></tr>
+    <tr><td>Garlic Naan</td><td>Bread</td><td>100</td></tr>
+    <tr><td>Doodh Patti Chai</td><td>Drinks</td><td>150</td></tr>
+  </table>
+
+  <button onclick="orderChai()">Order Chai</button>
+
+  <script>
+    function orderChai() {
+      console.log("Order button was clicked for Chai");
+      window.alert("Your chai has been ordered!");
+    }
+  </script>
+</body>
+</html>
